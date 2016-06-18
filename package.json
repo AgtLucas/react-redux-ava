@@ -6,6 +6,14 @@
   "scripts": {
     "test": "cross-env NODE_PATH=src ava"
   },
+  "ava": {
+    "babel": "inherit",
+    "require": [
+      "babel-register",
+      "ignore-styles",
+      "./test/helpers/setup"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AgtLucas/react-redux-ava.git"

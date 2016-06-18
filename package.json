@@ -1,0 +1,19 @@
+{
+  "name": "react-redux-ava",
+  "version": "1.0.0",
+  "description": "Using AVA to test React + Redux",
+  "main": "server.js",
+  "scripts": {
+    "test": "cross-env NODE_PATH=src ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgtLucas/react-redux-ava.git"
+  },
+  "author": "Lucas",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/AgtLucas/react-redux-ava/issues"
+  },
+  "homepage": "https://github.com/AgtLucas/react-redux-ava#readme"
+}

@@ -1,5 +1,5 @@
 import test from 'ava'
-import { action } from 'actions'
+import { action } from 'actions' // import from 'src/actions/index.js'
 
 test('Returns payload.', t => {
   t.deepEqual(
